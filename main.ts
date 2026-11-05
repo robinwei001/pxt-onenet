@@ -15,8 +15,7 @@ namespace onenet {
 
 
     function configRequest() {
-         //%kittenwifi.rest_host("api.heclouds.com", 80)
-        kittenwifi.rest_host("mqtt.heclouds.com", 1883)
+        kittenwifi.rest_host("api.heclouds.com", 80)
         basic.pause(100)
         kittenwifi.rest_header(0, `api-key:${apiKey}`)
         basic.pause(100)
